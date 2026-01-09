@@ -1,12 +1,12 @@
-**#📦 Monthly Forecast & Strategic Decision System for Logistics Hub**
-**##🔍 Overview**
+**📦 Monthly Forecast & Strategic Decision System for Logistics Hub**
+**🔍 Overview**
 
 Operations teams in logistics hubs often react to problems only after delays or bottlenecks occur.
 This project builds an end-to-end data system that forecasts operational volume for the next 30 days and translates forecasts into actionable operational strategies.
 
 The goal is to help operations managers plan manpower, shifts, and transportation capacity in advance, rather than firefighting daily issues.
 
-**##🎯 Business Objectives**
+**🎯 Business Objectives**
 
 Forecast inbound, sorting, and outbound volumes for the next 30 days
 
@@ -16,7 +16,7 @@ Identify SLA risk periods before they happen
 
 Recommend operational strategies (staffing, prioritization, truck scheduling)
 
-**##❓ Key Decision Questions Addressed**
+**❓ Key Decision Questions Addressed**
 
 Do we need to increase or reduce manpower next month?
 
@@ -43,7 +43,7 @@ How should we adjust shifts and truck schedules proactively?
         v
 [Strategic Decision Engine]
 
-**##📊 Data Sources**
+**📊 Data Sources**
 
 WMS: shipment inbound/outbound
 
@@ -55,7 +55,7 @@ TMS: truck schedules
 
 Calendar data: holidays and campaigns
 
-**##🧠 Forecasting Approach**
+**🧠 Forecasting Approach**
 
 Forecast horizon: 30 days
 
@@ -75,7 +75,7 @@ Prophet (primary)
 
 SARIMA (baseline comparison)
 
-**##📈 Key Outputs**
+**📈 Key Outputs**
 1️⃣ Volume Forecast
 
 Daily forecast by route and service type
@@ -94,7 +94,7 @@ Weekly SLA risk score
 
 Bottleneck risk by process
 
-**##🧭 Strategic Decision Engine**
+**🧭 Strategic Decision Engine**
 
 The system converts forecasts into recommended actions, such as:
 
@@ -108,7 +108,7 @@ Adjust truck schedules during peak weeks
 
 All recommendations include a confidence score to support managerial approval.
 
-**##📊 Dashboards**
+**📊 Dashboards**
 
 Historical trends & seasonality
 
@@ -120,7 +120,7 @@ SLA risk heatmap
 
 Strategy recommendation summary
 
-**##🧪 Scenario Simulation**
+**🧪 Scenario Simulation**
 
 Base case (expected forecast)
 
@@ -130,7 +130,7 @@ Worst case (+20% volume)
 
 Used to stress-test operational strategies.
 
-**##🛠️ Tech Stack**
+**🛠️ Tech Stack**
 
 Data Lake: S3 / GCS
 
@@ -144,7 +144,7 @@ Forecasting: Python (Prophet, scikit-learn)
 
 BI: Power BI / Looker / Metabase
 
-**##🚀 Project Outcome**
+**🚀 Project Outcome**
 
 Proactive operational planning
 
@@ -154,7 +154,7 @@ Improved SLA stability
 
 Clear linkage between data, forecast, and business decisions
 
-**##👤 Author**
+**👤 Author**
 
 Role: Data Engineer Analyst
 Focus: Logistics, Forecasting, Decision Support
